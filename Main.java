@@ -10,17 +10,16 @@ public class Main {
         Animal animal5 = new Fox(1,"Алиса",2,3);
         Animal animal6 = new Beer(1,"Алиса",4,6);
 
+        Sget(animal1);
+        Sget(animal2);
+        Sget(animal4);
+        Sget(animal5);
+        Sget(animal6);
+        Sget(animal3);
+    }
+
+    private static void Sget(Animal animal1) {
         extrakt(animal1);
-        System.out.println();
-        extrakt(animal2);
-        System.out.println();
-        extrakt(animal4);
-        System.out.println();
-        extrakt(animal5);
-        System.out.println();
-        extrakt(animal6);
-        System.out.println();
-        extrakt(animal3);
         System.out.println();
     }
 
